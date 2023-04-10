@@ -1,0 +1,1 @@
+CLUSTER             LOC_ID                          LATITUDE            LONGITUDE           RADIUS              START_DATE        END_DATE          NUMBER_LOC          LLR                 P_VALUE             OBSERVED            EXPECTED            ODE                 REL_RISK            POPULATION          GINI_CLUST

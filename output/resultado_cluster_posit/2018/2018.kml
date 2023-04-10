@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+	<Style id="high-rate-placemark"><IconStyle><color>ff0000aa</color><Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href><scale>0.25</scale></Icon></IconStyle></Style>
+	<Style id="low-rate-placemark"><IconStyle><color>ffff0000</color><Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href><scale>0.25</scale></Icon></IconStyle></Style>
+	<Style id="location-placemark"><IconStyle><color>ff019399</color><Icon><href>https://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href><scale>0.25</scale></Icon></IconStyle></Style>
+	<StyleMap id="high-line-edge"><Pair><key>normal</key><Style><LineStyle><color>ff0000aa</color><width>3</width><scale>1.0</scale></LineStyle></Style></Pair><Pair><key>highlight</key><Style id="line-edge1"><LineStyle><color>ff0000aa</color><width>3</width><scale>1.0</scale></LineStyle></Style></Pair></StyleMap>
+	<StyleMap id="low-line-edge"><Pair><key>normal</key><Style><LineStyle><color>ffff0000</color><width>3</width><scale>1.0</scale></LineStyle></Style></Pair><Pair><key>highlight</key><Style id="line-edge1"><LineStyle><color>ffff0000</color><width>3</width><scale>1.0</scale></LineStyle></Style></Pair></StyleMap>
+
+	<name>SaTScan: 2018</name>
+
+	<NetworkLink><name>Locations Outside Clusters</name><visibility>0</visibility><refreshVisibility>0</refreshVisibility><Link><href>locations_outside_clusters.kml</href></Link></NetworkLink>
+
+</Document>
+</kml>

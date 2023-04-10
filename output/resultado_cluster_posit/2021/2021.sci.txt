@@ -1,0 +1,2 @@
+CLUSTER             DATASET             CATEGORY            OBSERVED            EXPECTED            ODE                 REL_RISK            POPULATION          PCT_CASES
+1                   1                   1                   2590                1281.59             2.02                2.64                7819.00             33.1  
